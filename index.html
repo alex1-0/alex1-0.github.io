@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proxy-Seite</title>
-    <script>
-        async function fetchData() {
-            const response = await fetch('https://https://eaglercraft.com/');
-            const data = await response.text();
-            document.body.innerHTML = data; // Zeigt die Inhalte der Zielseite an
+    <title>Seite anzeigen</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
         }
-        fetchData();
-    </script>
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <p>Daten werden geladen...</p>
+    <iframe src="https://wduihwqoiddjwioqqiodj.de/dwqudh" loading="lazy"></iframe>
 </body>
 </html>
