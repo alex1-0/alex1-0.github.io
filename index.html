@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weiterleitung</title>
-    <meta http-equiv="refresh" content="0;url=https://https://eaglercraft.com/">
+    <title>Proxy-Seite</title>
+    <script>
+        async function fetchData() {
+            const response = await fetch('https://wduihwqoiddjwioqqiodj.de/dwqudh');
+            const data = await response.text();
+            document.body.innerHTML = data; // Zeigt die Inhalte der Zielseite an
+        }
+        fetchData();
+    </script>
 </head>
 <body>
-    <p>Falls Sie nicht automatisch weitergeleitet werden, klicken Sie <a href="https://wduihwqoiddjwioqqiodj.de/dwqudh">hier</a>.</p>
+    <p>Daten werden geladen...</p>
 </body>
 </html>
